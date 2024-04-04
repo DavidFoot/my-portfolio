@@ -4,7 +4,7 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'slick-portfolio-csharp',
+		slug: 'unity-flappy-csharp',
 		color: '#5e95e3',
 		description:
 			'',
@@ -26,7 +26,7 @@ export const items: Array<Project> = [
 		]
 	},
 	{
-		slug: 'slick-portfolio-csharp',
+		slug: 'unity-RPG-csharp',
 		color: '#ff3e00',
 		description:
 			'',
@@ -41,10 +41,6 @@ export const items: Array<Project> = [
 		skills: getSkills('csharp'),
 		type: 'Jeu de type RPG 3D ',
 		screenshots: [
-			{
-				label: 'Capture',
-				src: 'https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
-			}
 		]
 	}
 ];
