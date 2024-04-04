@@ -3,29 +3,29 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Bachelier en informatique de gestion',
-		description: '',
-		location: 'Tunisia',
+		degree: 'DÉVELOPPEMENT WEB & INTRANET',
+		description: '20-03-2006 au 17-11-2006',
+		location: 'Hornu',
 		logo: Assets.Unknown,
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		organization: 'Technocité',
+		period: { from: new Date(2006, 0, 1), to: new Date(2006, 5, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		subjects: ['HTML', 'XHTML','CSS','PHP', 'ASP.NET', 'Javascript', 'Apache']
 	},
 	{
-		degree: 'PhD of Computer Science',
-		description: '',
-		location: 'USA',
+		degree: 'Bachelier en informatique de gestion',
+		description: 'nstitut Reine Astrid - Mons (2000 à 2005) ',
+		location: 'Mons',
 		logo: Assets.Unknown,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'IRAM',
+		period: { from: new Date(2000, 0, 1), to: new Date(2005, 5, 1) },
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		subjects: ['C', 'C++', 'Cobol', 'Fortran','Java','Réseaux','UML','Algorithmes et structures']
 	}
 ];
 
-export const title = 'Education';
+export const title = 'Formations';
