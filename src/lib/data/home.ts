@@ -8,7 +8,7 @@ export const name = 'David';
 export const lastName = 'Foot';
 
 export const description =
-	'HELLO WORLD! Développeur passionné depuis tout petit par les jeux videos, je concentre maintenant mon énergie à développer mes compétences dans le language C# et l\'utilisation d\'Unity';
+	'HELLO WORLD! Développeur passionné depuis tout petit par les jeux videos, je concentre maintenant mon énergie à développer mes compétences dans le language C# et l\'apprentissage d\'Unity';
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{ platform: Platform.GitHub, link: 'https://github.com/DavidFoot/' },
