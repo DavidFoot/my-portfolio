@@ -3,39 +3,23 @@ import { getSkills } from './skills';
 
 export const title = 'Home';
 
-export const name = 'Name';
+export const name = 'David';
 
-export const lastName = 'LastName';
+export const lastName = 'Foot';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+	'HELLO WORLD! Développeur passionné depuis tout petit par les jeux videos, je concentre maintenant mon énergie à développer mes compétences dans le language C# et l\'utilisation d\'Unity';
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/DavidFoot/' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
-	},
-	{
-		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
-	},
-	{
-		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
+		link: 'https://www.linkedin.com/in/david-foot-a42107136/'
 	},
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
-	},
-	{
-		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
-	},
-	{
-		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
+		link: 'david.foot@outlook.be'
 	}
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');
+export const skills = getSkills('js', 'css', 'html', 'Csharp', 'sass', 'Python', 'Docker','Nginx','AWS');
