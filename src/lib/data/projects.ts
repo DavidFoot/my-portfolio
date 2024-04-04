@@ -4,36 +4,36 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'slick-portfolio-csharp',
 		color: '#5e95e3',
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
 		shortDescription:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		links: [{ to: 'https://github.com/DavidFoot/FlappyBrol', label: 'GitHub' }],
+		logo: Assets.Csharp,
+		name: 'Flappy Brol',
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		skills: getSkills('csharp'),
+		type: 'Jeu 2D basé sur FlappyBird'
 	},
 	{
-		slug: 'slick-portfolio-svelte',
+		slug: 'slick-portfolio-csharp',
 		color: '#ff3e00',
 		description:
 			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
 		shortDescription:
 			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+		links: [{ to: 'https://github.com/DavidFoot/MyLittleRPG', label: 'GitHub' }],
+		logo: Assets.Csharp,
+		name: 'My Little RPG',
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Website Template',
+		skills: getSkills('csharp'),
+		type: 'Jeu de type RPG 3D ',
 		screenshots: [
 			{
 				label: 'screen 1',
@@ -63,4 +63,4 @@ export const items: Array<Project> = [
 	}
 ];
 
-export const title = 'Projects';
+export const title = 'Projets';
