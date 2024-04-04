@@ -7,9 +7,9 @@ export const items: Array<Project> = [
 		slug: 'slick-portfolio-csharp',
 		color: '#5e95e3',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Découverte d\'Unity! - Projet d\'apprentissage afin de se familiariser avec les concepts de bases ainsi que l\'interface',
 		links: [{ to: 'https://github.com/DavidFoot/FlappyBrol', label: 'GitHub' }],
 		logo: Assets.Csharp,
 		name: 'Flappy Brol',
@@ -23,9 +23,9 @@ export const items: Array<Project> = [
 		slug: 'slick-portfolio-csharp',
 		color: '#ff3e00',
 		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'',
 		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'',
 		links: [{ to: 'https://github.com/DavidFoot/MyLittleRPG', label: 'GitHub' }],
 		logo: Assets.Csharp,
 		name: 'My Little RPG',
