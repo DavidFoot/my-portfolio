@@ -31,7 +31,7 @@ export const items: Array<Project> = [
 		description:
 			'',
 		shortDescription:
-			'',
+			'Apprentissage de concepts plus avancé: création de terrain en 3d, personnages joueurs et ennemis, déplacement des unités, gain d\'expérience, armes de corps à corps et à distance, effets de particules, animations,..;',
 		links: [{ to: 'https://github.com/DavidFoot/MyLittleRPG', label: 'GitHub' }],
 		logo: Assets.Csharp,
 		name: 'My Little RPG',
