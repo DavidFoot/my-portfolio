@@ -4,7 +4,7 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'unity-flappy-csharp',
+		slug: 'slick-portfolio-csharp',
 		color: '#5e95e3',
 		description:
 			'',
@@ -26,7 +26,7 @@ export const items: Array<Project> = [
 		]
 	},
 	{
-		slug: 'unity-RPG-csharp',
+		slug: 'slick-portfolio-csharp',
 		color: '#ff3e00',
 		description:
 			'',
