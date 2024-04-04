@@ -26,7 +26,7 @@ export const items: Array<Project> = [
 		]
 	},
 	{
-		slug: 'slick-portfolio-csharp',
+		slug: 'slick-portfolio-csharp2',
 		color: '#ff3e00',
 		description:
 			'',
